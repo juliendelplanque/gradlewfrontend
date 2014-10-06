@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAssembleDebug" : "JulienDelplanque 10/6/2014 08:38",
+		"testAssembleDebugTest" : "JulienDelplanque 10/6/2014 08:38",
 		"testNoInfo" : "JulienDelplanque 10/2/2014 14:31",
 		"testPathToGradlewScript" : "JulienDelplanque 10/2/2014 14:36",
 		"testProjectDir" : "JulienDelplanque 10/2/2014 14:32",
