@@ -1,0 +1,15 @@
+{
+	"category" : "Gradlew-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"args",
+		"pathToGradlewScript" ],
+	"name" : "Gradlew",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
