@@ -18,7 +18,7 @@ Add Gradlew as a dependency of your project by adding the following to your meta
 
 ~~~
 spec baseline: 'Gradlew' with: [
-    spec repository: 'github://fstephany/gradlewfrontend/repository' ].
+    spec repository: 'github://juliendelplanque/gradlewfrontend/repository' ].
 ~~~
 
 To use the frontend:
