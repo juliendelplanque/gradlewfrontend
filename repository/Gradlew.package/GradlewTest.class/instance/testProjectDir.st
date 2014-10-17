@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testProjectDir
 	| gradlew |
 	gradlew := Gradlew new pathToGradlewScript: '/home/project/gradlew'; projectDir: '/home/project'.

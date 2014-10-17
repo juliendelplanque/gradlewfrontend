@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAssembleDebugTest
 	| gradlew |
 	gradlew := Gradlew new pathToGradlewScript: '/home/project/gradlew'; assembleDebugTest.

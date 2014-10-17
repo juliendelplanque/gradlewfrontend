@@ -10,4 +10,6 @@ createCommand
 			ifTrue: [
 				command := command , ' ' , key ]
 		 ].
+	(outputFile isNil)
+		ifFalse: [ command := command , ' >> ' , outputFile ].
 	^command
