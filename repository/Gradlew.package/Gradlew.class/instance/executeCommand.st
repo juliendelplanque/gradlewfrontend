@@ -1,6 +1,8 @@
 as yet unclassified
 executeCommand
-	| process semaphore |
+	"When you execute the command, it block the thread where the method is called until Gadlew process terminate."
+	| process semaphore output |
 	semaphore := Semaphore new.
-	process := ([ ExternalOSProcess command: self createCommand. semaphore signal.] fork).
+	process := ([ output := (PipeableOSProcess command: self createCommand)output. semaphore signal.] fork).
 	semaphore wait.
+	^output
